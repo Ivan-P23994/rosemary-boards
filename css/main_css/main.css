@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+:root { --main-color: #334422; }
+
+body {
+  font-family: 'Jacques Francois', serif;
+}
+
+.moss-green { color: var(--main-color); }
+.moss-green-bg { background-color: var(--main-color); }
+
+.moss-green-btn {
+  background-color: #334422;
+  color: white;
+}
+
+.br {
+  border-color: red;
+  border-width: thick;
+}
+
+.sm-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.sm-text {
+  text-size: 0,5rem;
+  text-weight: light;
+}
