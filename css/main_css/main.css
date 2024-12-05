@@ -65,6 +65,10 @@ img {
   display: block;
 }
 
+.bg-light {
+  background-color: #ffffff !important;
+}
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
     /* Hide the specific icons and their associated content on small screens */
