@@ -1,24 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 
-:root { --main-color: #334422; }
+:root {
+  --main-color: #334422;
+}
 
 body {
   font-family: 'Jacques Francois', serif;
   color: var(--main-color);
+  margin: 0;
+  padding: 0;
 }
 
-.primary-blue { background-color: #222933}
-.moss-green { color: var(--main-color); }
-.moss-green-bg { background-color: var(--main-color); }
+.primary-blue {
+  background-color: #222933;
+}
+
+.moss-green {
+  color: var(--main-color);
+}
+
+.moss-green-bg {
+  background-color: var(--main-color);
+}
 
 .moss-green-btn {
-  background-color: #334422;
+  background-color: var(--main-color);
   color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.moss-green-btn:hover {
+  background-color: #556644; /* Slightly lighter shade on hover */
 }
 
 .white-font {
   color: white;
 }
+
 .br {
   border-color: red;
   border-width: thick;
@@ -30,16 +51,45 @@ body {
 }
 
 .sm-text {
-  text-size: 0,5rem;
-  text-weight: light;
+  font-size: 0.5rem;
+  font-weight: 300;
 }
 
 .responsive-width {
   width: 100%; /* Default for extra small screens */
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    /* Hide the specific icons and their associated content on small screens */
+    .sm-icon {
+        display: none;
+    }
+    .d-flex p {
+        display: none;
+    }
+}
+
 @media (min-width: 576px) {
   .responsive-width {
-    width: 25%; /* Width for small screens and above */
+    width: 50%; /* Adjusted width for small screens and above */
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-width {
+    width: 33.33%; /* For medium screens and above */
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-width {
+    width: 25%; /* For large screens */
   }
 }
