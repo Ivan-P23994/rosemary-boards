@@ -4,8 +4,10 @@
 
 body {
   font-family: 'Jacques Francois', serif;
+  color: var(--main-color);
 }
 
+.primary-blue { background-color: #222933}
 .moss-green { color: var(--main-color); }
 .moss-green-bg { background-color: var(--main-color); }
 
@@ -14,6 +16,9 @@ body {
   color: white;
 }
 
+.white-font {
+  color: white;
+}
 .br {
   border-color: red;
   border-width: thick;
@@ -27,4 +32,14 @@ body {
 .sm-text {
   text-size: 0,5rem;
   text-weight: light;
+}
+
+.responsive-width {
+  width: 100%; /* Default for extra small screens */
+}
+
+@media (min-width: 576px) {
+  .responsive-width {
+    width: 25%; /* Width for small screens and above */
+  }
 }
