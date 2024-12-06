@@ -7,6 +7,16 @@ const boards = [
   { name: "Tarragon Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
 ];
 
+function getQueryParams() {
+  const params = new URLSearchParams(window.location.search);
+  const size = params.get('size');
+  return { size };
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const { size } = getQueryParams();
+  document.getElementById('output').textContent = `${size} Boards`;
+});
 // Function to generate the HTML for each board card
 function generateBoardTypeCards() {
   const boardTypeCardsContainer = document.getElementById("board-type-cards");
@@ -29,4 +39,3 @@ function generateBoardTypeCards() {
 // Load plant cards when the page is loaded
 document.addEventListener("DOMContentLoaded", generateBoardTypeCards);
 
-//

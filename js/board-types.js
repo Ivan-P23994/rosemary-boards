@@ -11,7 +11,7 @@ function generateBoardTypeCards() {
   boards.forEach((board) => {
     // Create a Bootstrap card for each board
     const cardHTML = `
-    <a href="./board-products.html?type=${board.size}">
+    <a href="./board-products.html?size=${board.size}">
       <div class="card m-2" style="width: 18rem;">
         <img class="card-img-top mt-2 bg-off-white" src="${board.image_link}" alt="${board.size} Board Image">
         <div class="card-body d-flex flex-row justify-content-center">
