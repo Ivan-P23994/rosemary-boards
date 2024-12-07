@@ -20,47 +20,15 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
     <!-- Local CSS File  -->
-    <link rel="stylesheet" href="./main.css"
+    <link rel="stylesheet" href="css/main.css"
       </head>
     <body class="d-flex flex-column">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a href="index.html"> <!-- link to the homepage -->
-            <img src="assets/brand_assets/PNG/Logo.png" class="img-fluid ml-4"
-              alt="Rosemary Boards Logo" />
-          </a>
-          <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-              <!-- hidden spacer to center brand on mobile --></span>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"
+        id="nav_container">
 
-            <div class="w-100 text-right">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent">
-            <div class="d-flex flex-column flex-sm-row">
-              <a href="boards.html" class="nav-link moss-green mr-4">Boards</a>
-              <a href="boards.html" class="nav-link moss-green mr-4">Grazing
-                Tables</a>
-              <a href="order-page.html" class="btn moss-green-btn">Order Now</a>
-            </div>
-          </div>
-        </div>
       </nav>
       <!-- Hero Image -->
       <img
@@ -72,7 +40,8 @@
         <div class="d-flex flex-column justify-content-around mt-3">
           <div
             class="d-flex flex-column text-center center-text align-items-center">
-            <img src="assets/brand_assets/PNG/Bio degradable.png" class="sm-icon" />
+            <img src="assets/brand_assets/PNG/Bio degradable.png"
+              class="sm-icon" />
             <p>Bio-Degradable Packaging</p>
           </div>
 
@@ -95,7 +64,7 @@
           <a href="boards.html" class="text-decoration-none">
             <div class="card mr-sm-4" style="width: 18rem">
               <img
-                src="/assets/brand_assets/PNG/boards_home_image.jpg"
+                src="assets/brand_assets/PNG/boards_home_image.jpg"
                 class="card-img-top"
                 alt="Charcuterie Boards" />
               <div class="card-body text-center">
@@ -105,7 +74,7 @@
           </a>
           <div class="card mr-sm-4" style="width: 18rem">
             <img
-              src="/assets/brand_assets/PNG/table_home_image_cropped.jpg"
+              src="assets/brand_assets/PNG/table_home_image_cropped.jpg"
               class="card-img-top"
               alt="..." />
             <div class="card-body text-center">
@@ -115,7 +84,7 @@
 
           <div class="card" style="width: 18rem">
             <img
-              src="/assets/brand_assets/PNG/salad_home_image_cropped.jpg"
+              src="assets/brand_assets/PNG/salad_home_image_cropped.jpg"
               class="card-img-top"
               alt="..." />
             <div class="card-body text-center">
@@ -128,7 +97,7 @@
 
       <div class="d-flex justify-content-center align-items-center my-5">
         <img
-          src="../assets/brand_assets/PNG/Divider.png"
+          src="assets/brand_assets/PNG/Divider.png"
           alt="Styled Divider"
           class="img-fluid" />
       </div>
@@ -138,7 +107,7 @@
         <div
           class="responsive-width d-flex flex-column justify-content-center align-items-center mr-4">
           <img
-            src="/assets/brand_assets/PNG/me2.jpg"
+            src="assets/brand_assets/PNG/me2.jpg"
             alt="Centered Image"
             class="img-fluid"" />
         </div>
@@ -163,7 +132,7 @@
 
       <div class="d-flex justify-content-center align-items-center my-5">
         <img
-          src="../assets/brand_assets/PNG/Divider.png"
+          src="assets/brand_assets/PNG/Divider.png"
           alt="Centered Image"
           class="img-fluid" />
       </div>
@@ -172,7 +141,9 @@
         class="d-flex flex-column flex-sm-row justify-content-between align-items-center primary-blue p-4 mt-5 border-top"
         id="footer_container">
       </footer>
-      <script src="./js/footer.js"></script>
+
+      <script src="js/footer.js"></script>
+      <script src="js/navigation.js"></script>
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script

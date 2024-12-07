@@ -1,4 +1,4 @@
-// Function to generate the HTML for each board card
+// Function to generate the HTML for each footer element
 function generateFooter() {
   const footerContainer = document.getElementById("footer_container");
     // Create a Bootstrap card for each board
