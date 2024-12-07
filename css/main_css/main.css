@@ -4,6 +4,10 @@
   --main-color: #334422;
 }
 
+description {
+  display: none;
+}
+
 body {
   font-family: 'Jacques Francois', serif;
   height: 100vh;
