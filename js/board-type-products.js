@@ -1,10 +1,10 @@
 const boards = [
-  { name: "Basil Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
-  { name: "Tarragon Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
-  { name: "Basil Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
-  { name: "Tarragon Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
-  { name: "Basil Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
-  { name: "Tarragon Board", image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg" },
+  { name: "Basil Board", image_link: "./assets/medium_boards/medium-boards.jpg" },
+  { name: "Tarragon Board", image_link: "./assets/large_boards/large-boards.jpg" },
+  { name: "Basil Board", image_link: "./assets/medium_boards/small-boards.jpg" },
+  { name: "Basil Board", image_link: "./assets/medium_boards/medium-boards.jpg" },
+  { name: "Tarragon Board", image_link: "./assets/large_boards/large-boards.jpg" },
+  { name: "Basil Board", image_link: "./assets/medium_boards/small-boards.jpg" },
 ];
 // Function to fetch query parameters
 function getQueryParams() {

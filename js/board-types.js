@@ -1,8 +1,8 @@
 // Array of plants with their names and types
 const boards = [
-  { size: "Small", price: 15, image_link: "./assets/cold_salads/Bruschettas/IMG_8572.jpg"},
-  { size: "Medium", price: 40, image_link: "./assets/medium_boards/IMG_0329.jpg"},
-  { size: "Large", price: 80, image_link: "./assets/large_boards/IMG_7785.jpg"}
+  { size: "Small", price: 15, image_link: "./assets/medium_boards/small-boards.jpg"},
+  { size: "Medium", price: 40, image_link: "./assets/medium_boards/medium-boards.jpg"},
+  { size: "Large", price: 80, image_link: "./assets/large_boards/large-boards.jpg"}
 ];
 
 // Function to generate the HTML for each board card
