@@ -63,41 +63,6 @@ body {
   width: 100%; /* Default for extra small screens */
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 .bg-light {
   background-color: #ffffff !important;
-}
-
-/* Responsive adjustments */
-@media (max-width: 576px) {
-    /* Hide the specific icons and their associated content on small screens */
-    .sm-icon {
-        display: none;
-    }
-    .d-flex p {
-        display: none;
-    }
-}
-
-@media (min-width: 576px) {
-  .responsive-width {
-    width: 50%; /* Adjusted width for small screens and above */
-  }
-}
-
-@media (min-width: 768px) {
-  .responsive-width {
-    width: 33.33%; /* For medium screens and above */
-  }
-}
-
-@media (min-width: 992px) {
-  .responsive-width {
-    width: 25%; /* For large screens */
-  }
 }
